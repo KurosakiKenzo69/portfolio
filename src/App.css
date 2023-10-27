@@ -1,19 +1,21 @@
-li {
-    list-style: none;
+img {
+    width: 50px;
+}
+
+.skills {
+    margin: 20px;
+    /*border-width: 50px;*/
+}
+
+html {
+    background-color: black;
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+
+svg {
+    margin-right: 10px;
 }
 
-.wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
+
+
