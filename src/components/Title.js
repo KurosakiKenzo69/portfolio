@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Title = ({ children }) => {
-    return <h1 className="text-4xl text-white font-bold">{children}</h1>;
+const TitleGreen = ({ children }) => {
+    return <h1 className="text-4xl text-green-600 font-bold vert">{children}</h1>;
 };
 
-export default Title;
+export default TitleGreen;

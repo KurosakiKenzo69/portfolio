@@ -8,7 +8,7 @@ import js from "../img/javascript-3.png";
 
 export default function Competences() {
     return (
-        <div className="py-10">
+        <div className="bg-black py-10">
             <Title>Mes compétences</Title>
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-3 gap-6 mt-6">
@@ -24,7 +24,7 @@ export default function Competences() {
 
 function SkillCard({ image, title }) {
     return (
-        <div className="text-center border border-green-950 rounded-lg shadow-md p-4 transform transition-transform hover:scale-105 hover:shadow-lg">
+        <div className="text-center bg-black rounded-lg border border-green-700 shadow-md p-4 transform transition-transform hover:scale-105 hover:shadow-lg hover:bg-green-700">
             <img className="w-16 mx-auto" src={image} alt={title} />
             <p className="text-lg font-semibold text-white">{title}</p>
         </div>
